@@ -8,11 +8,13 @@ class main {
 	while(true) {
 		System.out.print("Enter Code:");
 		String code = sc.nextLine();
-		String jnum = code.replaceAll("[^0-9]","");
-		for(int i = 0; i<jnum.length()-5; i++) {
-			int realnum = Integer.parseInt(jnum.substring(i, i+6));
-			System.out.println(realnum);
-			if((int)(realnum/10) == accesscode) {
+		for(int i = 0; i<code.length()-5; i++) {
+			String numword =(code.substring(i, i+6));
+			//String jnum = numword.replaceAll("[^0-9]","");
+			//int realnum = Integer.parseInt(numword);
+			//System.out.println(realnum);
+			if(("641881").equals(numword) || ("641884").equals(numword)) {
+				int realnum = Integer.parseInt(numword);
 				if((realnum%10) == 4) {
 					System.out.println("Locked");
 				}
