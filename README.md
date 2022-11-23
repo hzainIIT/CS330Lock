@@ -27,6 +27,7 @@ Upon the completion of these commands you can now run the code with the followin
 
 Or through double clicking the main.jar file in the directory.
 
+# Memo
 ## The System
 This program works in a very simple manner. It asks the user to input a 6 digit number in order to “lock” or “unlock” a keypad. In this case it is the 5 least significant of my ID 61488.
 Following those numbers is one of two numbers, either 1 or 4. 1 is to Unlock the machine and 4 is to lock it. 
