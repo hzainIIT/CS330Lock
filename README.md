@@ -25,7 +25,7 @@ Following that, run:
 Upon the completion of these commands you can now run the code with the following command
 `java -jar main.jar`
 
-Or through double clicking the main.jar file in the directory.
+Or through double clicking the main.jar file in the directory. Clicking "ctrl C" will end the program.
 
 # Memo
 ## The System
@@ -51,5 +51,5 @@ Following that, run:
 Upon the completion of these commands you can now run the code with the following command
 `java -jar lockbreak.jar`
 
-Or through double clicking the lockbreak.jar file in the directory.
+Or through double clicking the lockbreak.jar file in the directory. Clicking "ctrl C" will end the program.
 
